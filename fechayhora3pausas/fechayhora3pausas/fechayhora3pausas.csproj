@@ -5,8 +5,4 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="C:\Users\Rosa\Documents\demos\Fecha y hora con pausa\Fechayhora3pausas.cs" Link="Fechayhora3pausas.cs" />
-  </ItemGroup>
-
 </Project>

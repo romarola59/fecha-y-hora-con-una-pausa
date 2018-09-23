@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Fechayhora3pausas
+namespace fechayhora3pausas
 {
     public class Program
     {
@@ -9,7 +9,7 @@ namespace Fechayhora3pausas
         {
             DateTime fecha = DateTime.Now;  // inicializamos la variable fecha, con la fecha actual.
 
-            Console.WriteLine("Son las {0}: {1}:{2} ",fecha.Hour,fecha.Minute,fecha.Second);
+            Console.WriteLine("Son las {0}: {1}:{2} ", fecha.Hour, fecha.Minute, fecha.Second);
             Console.WriteLine("Vamos a esperar 10 segundos .....");
             Thread.Sleep(10000);  // comando para hacer la pausa en 5 segundos
             fecha = DateTime.Now;  // actualizamos la fecha en Horas , minutos,segundos(en tiempo)
